@@ -6,10 +6,8 @@ import { AddPizzaForm } from "./components/AddPizzaForm";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <PizzaList />
-        <AddPizzaForm />
-      </header>
+      <PizzaList />
+      <AddPizzaForm />
     </div>
   );
 }
